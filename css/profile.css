@@ -11,21 +11,6 @@
 
 .profile-info * {width: auto; overflow: hidden;}
 
-.flex {
-    display: flex;
-    flex-direction: row;
-    
-    border-start-start-radius: 0px;
-    border-start-end-radius: 0px;
-
-    border-end-start-radius: 5px;
-    border-end-end-radius: 5px;
-
-    margin: 0px;
-    padding: 15px;
-    background-color: #252525;
-}
-
 .profile-info img {
     border-radius: 50%;
     border-style: solid;
@@ -34,29 +19,6 @@
 
     height: fit-content;
     width: fit-content;
-}
-
-.title {
-    padding: 5px;
-    margin-left: 15px;
-
-    font-size: 15pt;
-    color: white;
-
-    border-start-start-radius: 5px;
-    border-radius: 5px;
-
-    text-decoration: none;
-}
-
-.clickable:hover {
-    text-decoration: underline;
-}
-
-.centered-title {
-    text-align: center;
-    background-color: #1f1f1f;
-    margin: 0px;
 }
 
 .followers {
@@ -87,4 +49,9 @@
 .followers span {
     color: white;
     margin-left: 10px;
+}
+
+.collapsed {
+    overflow: hidden;
+    height: 90%;
 }

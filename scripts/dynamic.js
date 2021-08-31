@@ -82,3 +82,10 @@ function createRepoObject(json) {
 
     document.getElementById('dynamic-repos-list').appendChild(repo);
 }
+
+function expand(src) {
+    var div = src.parentElement;
+    div.classList.remove('expandable');
+    div.children[0].classList.remove('collapsed');
+    src.parentElement.removeChild(src);
+}
