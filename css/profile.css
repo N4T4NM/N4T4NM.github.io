@@ -17,8 +17,8 @@
     border-width: 1px;
     border-color: gray;
 
-    height: fit-content;
-    width: fit-content;
+    height: 100px;
+    width: 100px;
 }
 
 .followers {
